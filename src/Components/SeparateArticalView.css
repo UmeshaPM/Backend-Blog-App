@@ -1,0 +1,43 @@
+.selectedImage {
+    display: flex;
+    justify-content: center;
+}
+
+.selectedImageOne {
+    border-radius: 15px;
+}
+
+.selectedTitle {
+    text-align: center;
+    font-family: "Roboto-Bold";
+    font-size: 35px;
+    color: blue;
+}
+
+.selectedCatagory {
+    font-size: 25px;
+}
+
+.category {
+    color: blue;
+    font-family: "Roboto-Black";
+
+}
+.categoryTwo {
+    color:blue;
+    font-family: "Roboto-Black";
+
+}
+
+.selectedDescription {
+    /* border: 2px solid red; */
+    font-family: "Roboto-Bold";
+    font-size: 18px;
+}
+
+.singlePageContent {
+    width: 48%;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 26%;
+}

@@ -1,0 +1,177 @@
+/* Left Side  */
+
+
+.Header {
+    font-size: 40px;
+}
+
+#harizondal {
+    border: 4px solid rgb(115, 7, 177);
+    width: 6%;
+    position: absolute;
+    left: 7%;
+    border-radius: 4px;
+
+}
+
+.LeftSide {
+    /* border: 2px solid red; */
+    float: left;
+    width: 60%;
+}
+
+.imageLeftSide {
+    /* border: 2px solid green; */
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.leftSideContent {
+    /* border: 2px solid greenyellow; */
+    position: relative;
+    height: 320px;
+}
+
+.leftSideRight {
+    position: absolute;
+    left: 308px;
+    top: -20px;
+    /* border: 2px solid greenyellow; */
+
+}
+
+.titleLeftSide {
+    font-size: 30px;
+    /* border: 2px solid rgb(42, 43, 41); */
+    font-family: "Roboto-Bold";
+}
+
+.descriptionLeftSide {
+    font-family: "Roboto-Light";
+
+}
+
+.categoryLeftSide {
+    font-family: "Roboto-Black";
+    font-size: larger;
+    color: blue;
+}
+
+
+/* Right Side  */
+
+.RightSide {
+    /* border: 2px solid gold; */
+    float: right;
+    width: 33%;
+    position: absolute;
+    left: 60%;
+    top: 32%;
+}
+
+#harizondalRight {
+    border: 4px solid rgb(115, 7, 177);
+    width: 33%;
+    position: absolute;
+    left: 1%;
+    border-radius: 4px;
+}
+
+.imageRightSide {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.rightSideContent {
+    /* border: 2px solid green; */
+    position: relative;
+    height: 160px;
+}
+
+.rightSideRight {
+    position: absolute;
+    top: 15px;
+    left: 160px;
+}
+
+.titleRightSide {
+    font-family: "Roboto-Bold";
+    font-size: 20px;
+}
+
+.categoryRightSide {
+    font-family: "Roboto-Black";
+    color: blue;
+}
+
+#advertisement {
+    border: 2px solid black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Home Page  */
+
+.welcomeImage2{
+    width: 545px;
+}
+.welcomeImage{
+    border-radius: 15px;
+}
+.welcomeImages {
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Roboto-Bold";
+    font-size: 30px;
+}
+
+.hrInHome {
+    width: 20%;
+    border: 4px solid rgb(115, 7, 177);
+    border-radius: 10px;
+}
+
+.homePageTechnologySection {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.leftSideContentInHome {
+    /* border: 2px solid red; */
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.imageInHomePage {
+    width: 150px;
+    height: 150px;
+border-radius: 10px;
+}
+
+.titleLeftSideInHome {
+    font-family: "Roboto-Bold";
+
+
+}
+
+.descriptionLeftSideInHome {
+    font-family: "Roboto-Light";
+
+}
+
+.categoryLeftSideInHome {
+    font-family: "Roboto-black";
+    color: blue;
+}
